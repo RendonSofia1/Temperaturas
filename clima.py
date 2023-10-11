@@ -23,4 +23,14 @@ print(f"Máximo: {maximo}")
 print(f"Mínimo: {minimo}")
 print(f"Desviación Estándar: {desviacion_estandar}")
 
-
+# Crear un gráfico con los días en el eje x
+dias = df['Dia']
+plt.figure(figsize=(10, 6))
+plt.plot(dias, temp)
+plt.xlabel('Día')
+plt.ylabel('Temperatura')
+plt.title('Gráfico de Temperaturas en la semana')
+plt.xticks(rotation=45)  # Para rotar las etiquetas del eje x
+plt.grid(True)
+plt.tight_layout()
+plt.show()
