@@ -20,8 +20,10 @@ desviacion_estandar = np.std(temp)
 print(f"Media: {media}")
 print(f"Mediana: {mediana}")
 print(f"Máximo: {maximo}")
-print(f"Mínimo: {minimo}")
-print(f"Desviación Estándar: {desviacion_estandar}")
+
+#print(f"Mínimo: {minimo}")
+#print(f"Desviación Estándar: {desviacion_estandar}")
+
 
 # Crear un gráfico
 dias = df['Dia']
