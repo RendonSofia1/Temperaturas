@@ -16,11 +16,9 @@ maximo = np.max(temp)
 minimo = np.min(temp)
 desviacion_estandar = np.std(temp)
 
-# Mostrar resultados
-print(f"Media: {media}")
-print(f"Mediana: {mediana}")
-print(f"Máximo: {maximo}")
-
+# print(f"Media: {media}")
+# print(f"Mediana: {mediana}")
+# print(f"Máximo: {maximo}")
 #print(f"Mínimo: {minimo}")
 #print(f"Desviación Estándar: {desviacion_estandar}")
 
