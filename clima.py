@@ -6,5 +6,21 @@ import matplotlib.pyplot as plt
 file_path = "C:/Users/rendo/Documents/proyectosING/Clima/temperatura.xls" 
 df = pd.read_excel(file_path)
 
-print(df.columns);
+#print(df.columns); #ver columnas
+
+# Calcular estadísticas
+temp = df['Temperatura']
+media = np.mean(temp)
+mediana = np.median(temp)
+maximo = np.max(temp)
+minimo = np.min(temp)
+desviacion_estandar = np.std(temp)
+
+# Mostrar resultados
+print(f"Media: {media}")
+print(f"Mediana: {mediana}")
+print(f"Máximo: {maximo}")
+print(f"Mínimo: {minimo}")
+print(f"Desviación Estándar: {desviacion_estandar}")
+
 
